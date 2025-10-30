@@ -48,7 +48,7 @@ function setup() {
 
 function draw() {
   Engine.update(engine);
-  background(0);
+  background(0, 0, 255);
   // bubble.display();
   for (let b of bubbles) {
     b.display();
